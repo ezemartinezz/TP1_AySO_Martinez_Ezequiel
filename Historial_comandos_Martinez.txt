@@ -1,0 +1,262 @@
+whoami
+pwd
+ssh-keygen -t ed25519
+pwd
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub
+clear
+pwd
+cd ..
+pwd
+ls 
+ls -l
+ls -la
+cd repogit
+cd ..
+pwd
+mkdir clase4
+ls -l
+cd clase4
+ls -l
+echo linea1
+echo linea1 > archivo1.txt
+ls -l
+cat archivo1.txt 
+cat > archivo2.txt
+ls -l
+cat *.txt
+cat archivo.txt >> archivo2.txt
+cat archivo1.txt >> archivo2.txt
+cat archivo2.txt
+cat archivo1.txt archivo2.txt > archivo3.txt
+ls -l
+cat archivo3.txt
+mkdir dicumentos
+ls -l
+cd dicumentos
+ls
+ls -l
+cd ..
+cat archivo3.txt
+grep linea1
+tree
+sudo snap install tree
+tree
+exit
+whoami
+pwd
+ssh-keygen -t ed25519
+pwd
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub 
+clear
+pwd
+cd ..
+cd clase4
+ls -l
+cd ..
+ls -l
+pwd
+man man
+echo hola
+echo $HOME
+whoami
+who
+w
+ls -l
+celar
+clear
+cd clase4
+ls -l
+echo
+cat archivo3.txt 
+grep -i linea 1 archivo3.txt 
+grep -c linea1 archivo3.txt 
+grep -n linea1 archivo3.txt 
+grep -v linea1 archivo3.txt 
+tree
+ls -l
+mkdir practica
+ls -l
+cd practica
+ls -l
+touch practica1.txt
+ls -l
+cp practica1.txt practica2.txt 
+ls -l
+rm practica1.txt 
+ls -l
+mv practica2.txt /home/vagrant/clase4
+ls -l
+cd ..
+ls -l
+rmdir practica
+ls -l
+id
+cd ..
+clear
+mkdir clase5
+ls -l
+cd clase5
+pwd
+ls -l
+tree
+mkdir facturas pedidos
+tree
+mkdir -p clientes/{facturas, pedidos}
+tree
+rm -r clientes
+tree
+rm pedidos}
+rmdir pedidos}
+tree
+mkdir -p clientes/{facturas, pedidos}
+tree
+rm -r clientes
+tree
+rmdir pedidos}
+tree
+mkdir -p clientes/{facturas,pedidos}
+tree
+clear
+tree
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p martinez_1/contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+ls -l
+mkdir -p martinez_2/{mama,hijo{1..3},papa/hijo{1..3},ahijado}}
+tree
+cd ..
+pwd
+exit
+ls -l
+clear
+ls -l
+cd clase5
+tree
+clear
+cd ..
+ls -l
+cat /etc/passwd
+grep -i vagrant /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+cat /etc/grow
+cat /etc/group
+grep vagrant /etc/group
+sudo su
+ls -l
+cat arch_root.txt 
+rm arch_root.txt 
+ls -l
+w
+clear
+ls -l
+groupadd alumnos
+sudo groupadd alumnos
+cat /etc/group
+useradd -m -s /bin/bash -c "Usuario pepe" -G alumnos pepe
+sudo useradd -m -s /bin/bash -c "Usuario pepe" -G alumnos pepe
+cat /etc/passwd
+cat /etc/gruop
+cat /etc/group
+ls -l /home
+clear
+ls -l /home
+sudo passwd pepe
+su - pepe
+cat /etc/shadow
+sudo cat /etc/shadow
+clear
+su - pepe
+sudo usermod -aG sudo pepe
+clear
+ls -l
+PWD
+pwd
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:ezemartinezz/TP1_AySO_Martinez_Ezequiel.git
+ls -l
+cd ..
+LS -L
+ls -l
+cd repogit
+ls -l
+cd TP1_AySO_Martinez_Ezequiel
+ls -l
+grep -i HOME_URL /etc/os-release
+grep -i HOME_URL /etc/os-release > datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuarios.txt
+ls -l
+git add .
+git config --global user.email "ezenmartinez@gmail.com"
+git config --global user.name "Martinez-Ezequiel"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+exit
+ls -l
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+ls -l
+cd datos_usuarios.txt
+ls -l
+clear
+ls -l
+cd ~/repogit
+mv ~/datos_usuarios.txt .
+ls -l
+cat datos_usuarios.txt 
+git status
+git init
+git status
+git add datos_usuarios.txt 
+git commit -m "feat: Añadiendo informacion de CPU"
+git log --online -1
+git log --oneline -1
+git push
+git remote -v
+cd TP1_AySO_Martinez_Ezequiel
+git remote -v
+git push
+clear
+cat <<EOF >> README.md
+Alumno: Ezequiel Martinez
+División: 114
+Turno: Mañana
+EOF
+
+cat README.md 
+git add README.md 
+git commit -m "ADD: Añadiedno Readme y datos de usuario"
+git push
+cd ..
+[200~mkdir -p materia1/uni{1..3} materia2/uni{1..3}
+mkdir -p materia1/uni{1..3} materia2/uni{1..3}
+tree
+pwd
+ls -l
+cd repogit
+ls -l
+cd TP1_AySO_Martinez_Ezequiel
+nano script_dir.sh
+clear
+chmod +x script_dir.sh
+./script_dir.sh
+clear
+git add script_dir.sh 
+git commit -m "ADD: Añadiendo script"
+git push
+clear
+history -a
